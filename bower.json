@@ -1,0 +1,15 @@
+{
+	"name": "sunlight",
+	"version": "1.22.0",
+	"main": "build/1.22.0/sunlight.min.js",
+	"ignore": [
+		"lib",
+		"docs",
+		"src",
+		"tests",
+		"TODO",
+		"build.xml",
+		".editorconfig",
+		".gitignore"
+	]
+}

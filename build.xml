@@ -8,7 +8,7 @@
 
 	<property name="build.dir" value="${basedir}/build"/>
 	<property name="build.dist" value="${build.dir}/dist"/>
-	<property name="deploy.dir" value="${build.dir}/${product.version}"/>
+	<property name="deploy.dir" value="${build.dir}/dist"/>
 	<property name="temp.dir" value="${build.dir}/temp"/>
 	<property name="lang.dir" value="${deploy.dir}/lang"/>
 	<property name="themes.dir" value="${deploy.dir}/themes"/>
@@ -158,7 +158,7 @@
 		</exec>
 	</target>
 	
-	<!-- 
+	<!--
 		######################################################
 		internal targets only below
 		######################################################
